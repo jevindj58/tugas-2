@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulir</title>
+</head>
+<style>
+	body {
+		background-image: url(nature.jpg);
+		background-size: 100%;
+	}
+	h1,form{
+		color: black;
+	}
+
+</style>
+<body >
+<a name="upper"></a>
+
+	<table width="1200" cellspacing="0" cellpadding="12" border="0" bgcolor="#373437">
+		<td width="40"><a href="HOME.html"><font face="candara, Arial, Helvetica" color="#FFF" size="+2"><b>HOME</b></font></a></td>
+		<td width="40"><a href="jadwalhtml.html"><font face="candara, Arial, Helvetica" color="#FFF" size="+2"></font><b>Jadwal</b></a></td>
+		<td width="40"><a href="form.html"><font face="candara, Arial, Helvetica" color="#FFF" size="+2"></font><b>Formulir</b></a></td>
+		<td width="40"><a href="coba.html"><font face="candara, Arial, Helvetica" color="#FFF" size="+2"></font><b>Biodata</b></a></td>
+	</table>
+		
+	<h1 align="center">Formulir</h1>
+	<form><p align="justify">Nama : <input type="text" name="Nama" value="My Name"><br>
+	Password : <input type="password" name="password"><br>
+	Jenis Kelamin :
+	<input type="radio" name="jenis_kelamin" value="laki-laki"Checked/>
+	Laki-laki
+	<input type="radio" name="jenis_kelamin" value="perempuan"/>
+	Perempuan
+	<br>
+	Hobi :  <input type="checkbox" name="hobi_futsal"/> Futsal
+			<input type="checkbox" name="hobi_basket"/>	Basket
+			<input type="checkbox" name="hobi_golf"/> Golf
+			<input type="checkbox" name="hobi_tenis"/> Tenis
+			<input type="checkbox" name="hobi_renang"/> Renang
+			<br>
+	Asal Kota :
+	 <select name="asal_kota">
+	 	<option value="Kota Jakarta">Jakarta</option>
+	 	<option value="Kota Bandung">Bandung</option>
+	 	<option value="Kota Semarang">Semarang</option>
+	 	<option value="Kota Serang">Serang</option>
+	 	<option value="Kota Yogyakarta">Yogyakarta</option>
+	 	<option value="Kota Surabaya">Surabaya</option>
+	 </select>
+	<br>
+	Komentar Anda :
+	<textarea name="komentar" rows="5" cols="20"> 
+	silahkan isi komentar anda
+	</textarea>
+	<br>
+	<input type="submit" value="Mulai">
+	</form>
+</body>
+</html>
